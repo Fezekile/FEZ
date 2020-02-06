@@ -3,8 +3,6 @@ provider "github" {
 	organization = "Momentum"
 } 
 resource "github_repository" "example" {
-  name        = "example"
-  description = "My awesome codebase"
-
-  
+	name = "example"
+	description = "My awesome codebase"
 }
