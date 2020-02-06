@@ -1,8 +1,8 @@
 provider "github" { 
 	token = "a2bcl5..." 
-	organization = "terraform-example"
+	organization = "Momentum"
 } 
-resource "github_repository" "example-repo" {
-  name        = "example-repo"
+resource "github_repository" "Mom-repo" {
+  name        = "Mom-repo"
   description = "My new repository for use with Terraform"
 }
