@@ -1,5 +1,6 @@
 provider "github" { 
-	token = "6d88445282e24f63816eafe43f11cd2600af4b35"
+	token = "ad562812b93f4b60da65ce2751544d418727018c" 
+"
 	organization = "Momentum"
 } 
 resource "github_repository" "example" {
