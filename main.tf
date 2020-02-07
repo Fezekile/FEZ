@@ -1,15 +1,15 @@
 provider "github" {
-  token= "2847a927555bc2addaeda6278a33bc88a56d097f"
+  token= "53d9511e09a4f51c6c62f0d9496f9e873ea38742"
   organization = "DEvFez"
 }
 
-resource "github_repository" "mynewrepo-repo" {
-  name = "mynewrepo-repo"
+resource "github_repository" "FEZ" {
+  name = "FEZ"
   description = "Sweet Terraform Repo Yey..."
 }
 
 resource "github_repository_collaborator" "a_repo_collaborator" {
-  repository = "mynewrepo-repo"
+  repository = "FEZ"
   username   = "Fezekile"
   permission = "admin"
 }
