@@ -38,3 +38,8 @@ captures/
 
 # Keystore files
 *.jks
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform
